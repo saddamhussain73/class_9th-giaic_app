@@ -5,8 +5,8 @@ export default function Header(){
     return(
      
 
-<div className=" sticky top-0 w-full bg-blue-900">
-    <div className=" m-auto flex h-16 w-[95%] items-center justify-between md:h-20 lg:w-[90%] xl:w-[300px]">
+<div className=" sticky top-0 z-30 w-full bg-blue-900 backdrop-blur-3xl print:hidden ">
+    <div className=" m-auto flex h-16 w-[95%] items-center justify-between md:h-20 lg:w-[90%] xl:w-[1300px]">
 
 <img src="/logo.png" alt="logo" 
 width={90}
